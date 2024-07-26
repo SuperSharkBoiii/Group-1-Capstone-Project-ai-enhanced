@@ -1,0 +1,178 @@
+body {
+    background-color: navy;
+    color:aliceblue
+} 
+
+div { 
+    font-family: monospace;
+    background-color: navy;
+    color: gold;
+    font-size: 25px;
+    padding: 20px;
+}
+
+nav {
+
+    display: inline-flex;
+   margin-right: 10px; 
+}
+h1{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.IF{
+    
+    display: flex;
+    flex-direction: column
+}
+.Intro{
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+.Info{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.StoryI{
+
+    display: flex;
+    flex-direction: row
+}
+.STI{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.StI{
+    width: 600px;
+}
+.LAMT{
+    display: flex;
+    flex-direction: column;
+}
+.LAM{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.LAMI{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.Hob{
+    display: flex;
+    flex-direction: row;
+}
+.AS1{
+    width: 60px;
+}
+
+.items:hover{
+    color: rgb(0, 195, 255);
+    opacity: 1;
+}
+
+a {
+    text-align: center;
+    text-decoration:none
+}
+
+.Im {
+    width: 60px
+}
+
+.AS{
+    display: flex;
+    flex-direction: column;
+    background-color: navy;
+    width: 100px
+}
+
+.AS{
+    display: flex;
+    flex-direction: column;
+    background-color: navy;
+    gap: 50px;
+
+}
+
+#AD2{
+    width: 500px;
+}
+
+
+#AD3{
+    
+    width: 500px;
+}
+
+
+
+
+    
+#AD3:hover{
+    border-top: 5px solid rgb(0, 195, 255);
+    border-bottom: 5px solid rgb(0, 195, 255);
+    border-left: 5px solid  rgb(0, 195, 255);
+    border-right: 5px solid  rgb(0, 195, 255);
+    }
+      
+#AD2:hover{
+    border-top: 5px solid rgb(0, 195, 255);
+    border-bottom: 5px solid rgb(0, 195, 255);
+    border-left: 5px solid  rgb(0, 195, 255);
+    border-right: 5px solid  rgb(0, 195, 255);
+    }
+      
+#AD3:hover{
+    border-top: 5px solid rgb(0, 195, 255);
+    border-bottom: 5px solid rgb(0, 195, 255);
+    border-left: 5px solid  rgb(0, 195, 255);
+    border-right: 5px solid  rgb(0, 195, 255);
+    }
+
+
+    @media (max-width: 1000px) {
+    
+        .items{
+        background-color: rgb(215, 180, 7);
+        }
+    .items{
+        color: black;
+    }
+    
+    .AS{
+        flex-direction: column;
+        align-items: center;
+    }
+    .AS{
+        width: 90%;
+    }
+    }
+    
+    @media (max-width: 500px) {
+        nav{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+        @media (max-width: 500px) {
+        
+        .items{
+            background-color: rgb(0, 0, 0);
+        }
+
+        .items{
+            font-size: 120px;
+        }
+
+        .AS{
+            width: 150%;
+        }
+    }
+    
+

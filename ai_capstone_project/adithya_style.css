@@ -1,0 +1,26 @@
+div {
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+    color: white;
+    font-size: 32px;
+    padding: 0;
+}
+
+nav {
+    background-color: #11141a;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+img {
+    width: 60px;
+}
+
+.items:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+

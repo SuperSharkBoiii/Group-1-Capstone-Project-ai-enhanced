@@ -1,0 +1,113 @@
+/* Default (dark mode) styles */
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+/* Light mode styles */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+button {
+    font-family: monospace;
+    background-color: #4e4e4eb4;
+    color: #66fcf2;
+    font-size: 25px;
+    padding: 20px;
+    border: 3px solid #1F2833;
+}
+
+button.light-mode {
+    background-color: #ddd;
+    color: #333;
+}
+
+.home_text {
+    margin-top: 20px;
+    background-color: #4e4e4eb4;
+    padding: 5px;
+    color: #66fcf2;
+    border: 3px solid #66fcf2;
+}
+
+.home_text.light-mode {
+    background-color: #f0f0f0;
+    color: #333;
+    border-color: #333;
+}
+
+nav {
+    border: 3px solid #66fcf2;
+    background-color: #4e4e4eb4;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav.light-mode {
+    border-color: #333;
+    background-color: #f0f0f0;
+}
+
+a {
+    color: #66fcf2;
+}
+
+a.light-mode {
+    color: #333;
+}
+
+button:hover {
+    background-color: gray;
+    opacity: 0.75;
+}
+
+
+.Intro {
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.Intro.light-mode {
+    color: #333;
+}
+
+.Info {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.Info.light-mode {
+    color: #333;
+}
+
+.Name {
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Name.light-mode {
+    color: #333;
+}
+
+.Bio {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left;
+}
+
+.Bio.light-mode {
+    color: #333;
+}
+
+.LOGO{
+    width: 100px;
+}
